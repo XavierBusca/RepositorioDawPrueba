@@ -1,1 +1,6 @@
 Nom= int(input("Quin es el teu nom?"))
+Cognom=int(input("Quin es el teu nom?"))
+Edat=int(input("Quin es el teu nom?"))
+Nota1=int(input("Quin es el teu nom?"))
+Nota2=int(input("Quin es el teu nom?"))
+Nota3=int(input("Quina es la teva tercera nota"))
