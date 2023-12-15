@@ -13,5 +13,5 @@ NotaFinal3 = (Nota3 * 10)/30
 
 NotaFinal = NotaFinal1 + NotaFinal2 + NotaFinal3
 
-if NotaFinal < 7:
+if NotaFinal < 7 and NotaFinal1,NotaFinal2,NotaFinal3 < 8:
     print(Tupla1)
