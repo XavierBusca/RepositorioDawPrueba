@@ -1,0 +1,1 @@
+Nom= int(input("Quin es el teu nom?"))
