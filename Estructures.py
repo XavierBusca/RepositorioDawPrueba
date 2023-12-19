@@ -17,9 +17,13 @@ NotaFinal = NotaFinal1 + NotaFinal2 + NotaFinal3
 
 if NotaFinal > 7:
     Superior_A_7.append(alumno)
-    if Nota1 or Nota2 or Nota3 > 8:
+    if Nota1 or Nota2 or Nota3 >= 8:
         Superior_A_8.append(alumno)
 
 print("La nota media es igual o mayor a un 7:")
 for alumno in Superior_A_7:
     print("\t", "Nom:", alumno[0],"\n" , "\t", "Cognom:", alumno[1], "\n","\t", "Edad:", alumno[2], "\n", "\t", "Nota1:", alumno[3], "\n", "\t", "Nota2:", alumno[4], "\n", "\t", "Nota3:", alumno[5], "\n",)
+
+print("Saca un 8 o mas en cada nota:")
+for alumno1 in Superior_A_8:
+    print("\t", "Nom:", alumno1[0],"\n" , "\t", "Cognom:",alumno1[1], "\n","\t", "Edad:",alumno1[2], "\n", "\t", "Nota1:",alumno1[3], "\n", "\t", "Nota2:",alumno1[4], "\n", "\t", "Nota3:",alumno1[5], "\n",)
