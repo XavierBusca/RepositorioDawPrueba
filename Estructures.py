@@ -19,3 +19,7 @@ if NotaFinal > 7:
     Superior_A_7.append(alumno)
     if Nota1 or Nota2 or Nota3 > 8:
         Superior_A_8.append(alumno)
+
+print("La nota media es igual o mayor a un 7:")
+for alumno in Superior_A_7:
+    print("\t", "Nom:", alumno[0],"\n" , "\t", "Cognom:", alumno[1], "\n","\t", "Edad:", alumno[2], "\n", "\t", "Nota1:", alumno[3], "\n", "\t", "Nota2:", alumno[4], "\n", "\t", "Nota3:", alumno[5], "\n",)
